@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ReadModel\Epay.ReadModel.Context\Epay.ReadModel.Context.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Domain\Epay.QueueContext.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

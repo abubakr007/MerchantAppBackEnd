@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.DependencyInjection\Framework.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Epay.CashierContext.Domain\Epay.CashierContext.Domain.csproj" />
+    <ProjectReference Include="..\Epay.CashierContext.Facade\Epay.CashierContext.Facade.csproj" />
+    <ProjectReference Include="..\Epay.CashierContext.Repository\Epay.CashierContext.Repository.csproj" />
+    <ProjectReference Include="..\Epay.CashierContext.Services\Epay.CashierContext.Services.csproj" />
+  </ItemGroup>
+
+</Project>

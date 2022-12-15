@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.DependencyInjection\Framework.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.ApplicationService.Contracts\Epay.ProductContext.ApplicationService.Contracts.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.ApplicationService\Epay.ProductContext.ApplicationService.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.Facade.Contracts\Epay.ProductContext.Facade.Contracts.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.Facade\Epay.ProductContext.Facade.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.Infrastructure.AntiCruptionLayer\Epay.ProductContext.Infrastructure.AntiCruptionLayer.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.Infrastructure.Persistence\Epay.ProductContext.Infrastructure.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

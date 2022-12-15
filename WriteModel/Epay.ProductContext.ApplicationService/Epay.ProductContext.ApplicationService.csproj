@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Epay.ProductContext.ApplicationService.Contracts\Epay.ProductContext.ApplicationService.Contracts.csproj" />
+    <ProjectReference Include="..\Epay.ProductContext.Domain\Epay.ProductContext.Domain.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Domain\Epay.QueueContext.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

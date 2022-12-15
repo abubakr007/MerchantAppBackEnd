@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.DependencyInjection\Framework.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.ApplicationService.Contracts\Epay.QueueContext.ApplicationService.Contracts.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.ApplicationService\Epay.QueueContext.ApplicationService.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Domain.Services\Epay.QueueContext.Domain.Services.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Domain\Epay.QueueContext.Domain.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Facade.Contracts\Epay.QueueContext.Facade.Contracts.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Facade\Epay.QueueContext.Facade.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Infrastructure.AntiCruptionLayer\Epay.QueueContext.Infrastructure.AntiCruptionLayer.csproj" />
+    <ProjectReference Include="..\Epay.QueueContext.Infrastructure.Persistence\Epay.QueueContext.Infrastructure.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
